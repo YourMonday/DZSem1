@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Treg.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="49"/>
+        <CursorPos Y="83"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="17">
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="25" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="21" Column="42"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="37" Column="65" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="3" Column="6"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="41" Column="23" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="54" Column="33" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="64" Column="82" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="62" Column="110" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="61" Column="23" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="62" Column="13" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="68" Column="33" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="66" Column="23" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="67" Column="13" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="65" Column="85" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="24" Column="48" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="63" Column="43" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="66" Column="44" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="Treg.lpr"/>
+        <Caret Line="83" TopLine="49"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
