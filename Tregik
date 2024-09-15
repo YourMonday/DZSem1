@@ -1,0 +1,82 @@
+program Treg;
+
+uses unit1;
+
+ var x1, x2, x3, y1, y2, y3, a, b, c :real;
+ var flag, pramik :boolean;
+begin
+     writeln('Введите x для точки А');
+     readln(x1);
+     writeln('Введите y для точки А');
+     readln(y1);
+     writeln();
+
+     writeln('Введите x для точки B');
+     readln(x2);
+     writeln('Введите y для точки B');
+     readln(y2);
+     writeln();
+
+     writeln('Введите x для точки C');
+     readln(x3);
+     writeln('Введите y для точки C');
+     readln(y3);
+
+     a := sqrt(( sqr(x2-x1) + sqr(y2-y1) ));
+     b := sqrt(( sqr(x3-x2) + sqr(y3-y2) ));
+     c := sqrt(( sqr(x3-x1) + sqr(y3-y1) ));
+     writeln(a:8:3, b:8:3, c:8:3);
+
+     writeln();
+     writeln();
+
+     if a+b>=c then
+        begin
+        if b+c>=a then
+           begin
+               if a+c>=b then
+                  begin
+
+                      writeln('Тругольник существует');
+                      flag := true;
+                  end
+           end
+        end
+     else
+     begin
+         writeln('Тругольник не сушествует');
+         flag := false;
+     end;
+
+     writeln();
+     writeln();
+     writeln();
+
+     if (flag = true) then
+        begin
+
+            if ((a=b) and (b=c)) then
+               begin
+                   writeln('Равносторонний треугольник');
+               end
+            else if ((a=b) or (a=c) or (b=c)) then
+                   begin
+                       writeln('Равнобедренный треугольник');
+                   end;
+
+            if ((sqrt(sqr(a)+ sqr(c))) = b) then pramik:=true;
+            if ((sqrt(sqr(b)+ sqr(c))) = a) then pramik:=true;
+            if ((sqrt(sqr(a)+ sqr(b))) = c) then pramik:=true;
+
+            if  pramik = true  then
+
+                   begin
+                       writeln('Прямоугольный треугольник');
+                   end
+            else
+                writeln('Не прямоугольный треугольник');
+        end;
+
+
+     readln();
+end.
